@@ -1539,21 +1539,78 @@
         .bridal-grid {
           display: flex;
           flex-direction: column;
+          gap: 30px;
         }
         .bridal-copy {
           order: -1;
         }
         .bridal-gallery {
-          margin-top: 40px;
+          margin-top: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
         }
-        .bridal-text-box {
-          padding: 24px 20px;
+        .bridal-gallery .tile {
+          aspect-ratio: 16/9;
+          min-height: 180px;
         }
         .bridal-gallery .tile:nth-child(1) {
-          aspect-ratio: 3/4;
+          aspect-ratio: 16/9;
+          grid-row: auto;
+        }
+        .bridal-text-box {
+          padding: 28px 24px;
+          margin: 0;
+        }
+        .bridal-copy h2 {
+          font-size: 28px;
+          margin: 14px 0 18px;
+        }
+        .bridal-copy p {
+          font-size: 15px;
+        }
+        .bridal-quote {
+          margin: 20px 0;
+          padding: 18px 20px;
+          font-size: 16px;
+        }
+        .bridal-quote::before {
+          font-size: 36px;
         }
         .member-grid {
           gap: 20px;
+        }
+        .plan.featured {
+          transform: none;
+          border-width: 2px;
+        }
+        .plan ul li {
+          font-size: 14px;
+        }
+        .form-card {
+          padding: 28px 20px;
+        }
+        .form-card h3 {
+          font-size: 22px;
+        }
+        .booking-perks div {
+          font-size: 14px;
+        }
+        .product-grid {
+          gap: 20px;
+        }
+        .product-thumb {
+          height: 160px;
+        }
+        .review-card {
+          min-width: 260px;
+        }
+        .review-avatar {
+          width: 40px;
+          height: 40px;
+        }
+        .review-card p.txt {
+          font-size: 15px;
         }
         .plan {
           padding: 32px 24px;
